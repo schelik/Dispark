@@ -15,11 +15,10 @@ function Login() {
         <LoginContainer>
             <LoginInnerContainer>
                 <img 
-                    src="https://firebasestorage.googleapis.com/v0/b/dispark-87315.appspot.com/o/Dispark_transparent_logo.png?alt=media&token=57cb4afe-90c8-4713-8248-5a97b78ad302"
+                    src="https://firebasestorage.googleapis.com/v0/b/dispark-87315.appspot.com/o/Dispark_logo_animation.svg?alt=media&token=5b70354f-408c-4ab7-81e0-9ae2de7226cd"
                     alt=""
                 />
                 <h1>Sign in to Dispark</h1>
-                <p>login.dispark.com</p>
 
                 <Button onClick={signIn}>
                     Sign in with Google
@@ -39,19 +38,19 @@ const LoginContainer = styled.div`
 `; 
 
 const LoginInnerContainer = styled.div`
-    padding: 100px;
+    padding: 10px;
     text-align: center;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
 
     > img {
         object-fit: contain;
-        height: 100px;
-        margin-bottom: 40px;
+
+        height: 400px;
     }
 
     > button {
-        margin-top: 50px;
+        margin-top: 10px;
         text-transform: inherit !important;
         background-color: #0a8d48 !important;
         color: white
