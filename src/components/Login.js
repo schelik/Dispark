@@ -8,14 +8,14 @@ function Login() {
     const signIn = e => {
         e.preventDefault();
         auth.signInWithPopup(provider).catch((error) => alert(error.message));
-        
+
     }
 
     return (
         <LoginContainer>
             <LoginInnerContainer>
                 <img 
-                    src="https://firebasestorage.googleapis.com/v0/b/slack-clone-71682.appspot.com/o/Dispark_transparent_logo.png?alt=media&token=11910e2b-f505-4f46-bec8-152abcbc6ce4"
+                    src="https://firebasestorage.googleapis.com/v0/b/dispark-87315.appspot.com/o/Dispark_transparent_logo.png?alt=media&token=57cb4afe-90c8-4713-8248-5a97b78ad302"
                     alt=""
                 />
                 <h1>Sign in to Dispark</h1>
